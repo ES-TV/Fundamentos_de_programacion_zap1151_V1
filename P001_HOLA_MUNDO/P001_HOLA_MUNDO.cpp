@@ -1,5 +1,4 @@
 // P001_HOLA_MUNDO.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
 
 #include <iostream>
 #include <math.h>
@@ -27,7 +26,7 @@ int main()
     //para guardar numeros realmente extensos
     double epobencial = 0;
     //Papa raguardar letras
-    char sexo = " ";
+    char sexo;
     //Para guardae cadenas de caracteres
     char nombre[15];
 
