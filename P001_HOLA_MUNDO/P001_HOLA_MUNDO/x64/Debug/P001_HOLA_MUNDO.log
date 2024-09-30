@@ -1,4 +1,5 @@
 ﻿  P001_HOLA_MUNDO.cpp
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\P001_HOLA_MUNDO.cpp(30,10): warning C4101: 'sexo': variable local sin referencia
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\P001_HOLA_MUNDO.cpp(32,10): warning C4101: 'nombre': variable local sin referencia
-  P001_HOLA_MUNDO.vcxproj -> C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\x64\Debug\P001_HOLA_MUNDO.exe
+C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\P001_HOLA_MUNDO.cpp(48,10): error C2143: error de sintaxis: falta ';' delante de 'std::cin'
+C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\P001_HOLA_MUNDO.cpp(52,5): error C2653: 'Std': no es un nombre de clase o espacio de nombres
+C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\P001_HOLA_MUNDO.cpp(52,10): error C2146: error de sintaxis: falta ';' delante del identificador 'cin'
+C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P001_HOLA_MUNDO\P001_HOLA_MUNDO.cpp(52,10): error C2065: 'cin': identificador no declarado

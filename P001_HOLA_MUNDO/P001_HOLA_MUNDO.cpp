@@ -6,6 +6,8 @@
 #include <locale.h>
 #include <codecvt>
 #include <locale.h>
+#include <stdio.h>
+
 
 int main()
 {
@@ -18,20 +20,42 @@ int main()
     //tipo nombre = valor asignado de declaracion o instalaciom
     // TIPO GUARDAR ENTEROS REALES
     int Edad = 0;
+    std::cout << "Introduzca su edad\n";
+    std::cin >> Edad;
+    std::cout << "su carrera dura 4 años"
     //para guardar buneros  decimales
     float altura = 0;
+    std::cout << "Introduzca su altura\n" ;
+    std::cin >> altura;
     float Cali = 0;
+    std::cout << "Intruduzca su calificacion\n";
+    std::cin >> Cali;
     //para guardad verdades y falsedades
     float d1 = false;
-    //para guardar numeros realmente extensos
-    double epobencial = 0;
+    std::cout << "El cero es mayor a 1? 1 = verdadero o 0 = falso \n";
+    std::cin >> d1;
+    std::cout << "Dijiste " << d1 << "\n";
     //Papa raguardar letras
     char sexo;
+    std::cout << "Escriba su sexo\n"
+    std::cin >> sexo;
     //Para guardae cadenas de caracteres
     char nombre[15];
-
+    std::cout << "por ultimo intoduzca su nombre\n";
+    Std::cin >> nombre;
+    //para guardar numeros realmente extensos
+    int num = 0;
+    int pot = 0;
+    std::cout << "Introduzca dos numeros primero la base y luego la potencia\n";
+    std::cin >> num;
+    std::cin >> pot;
+    double exponencial = pow(num, pot);
+    std::cout << "El resultado es " << exponencial;
+    //Suma
+    double rsum;
     //Hablemos con el usuario
-
+    std::cout << "Este es su expediente\n";
+    std::cout << nombre << "con " << edad << " años de edad " ;
 //
 //
 
