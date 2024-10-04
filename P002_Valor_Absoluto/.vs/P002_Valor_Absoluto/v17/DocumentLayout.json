@@ -1,9 +1,16 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{1C0370FC-618D-4A2E-8C41-5DC7D41E290E}|P002_Valor_Absoluto.vcxproj|C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\P002_Valor_Absoluto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0370FC-618D-4A2E-8C41-5DC7D41E290E}|P002_Valor_Absoluto.vcxproj|C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\P002_Valor_Absoluto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+>>>>>>> e88530e8c285d5be5e3369f032d0a7626f830036
       "RelativeMoniker": "D:0:0:{1C0370FC-618D-4A2E-8C41-5DC7D41E290E}|P002_Valor_Absoluto.vcxproj|solutionrelative:P002_Valor_Absoluto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +27,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P002_Valor_Absoluto.cpp",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\P002_Valor_Absoluto.cpp",
               "RelativeDocumentMoniker": "P002_Valor_Absoluto.cpp",
               "ToolTip": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\P002_Valor_Absoluto.cpp",
               "RelativeToolTip": "P002_Valor_Absoluto.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\P002_Valor_Absoluto.cpp",
+              "RelativeDocumentMoniker": "P002_Valor_Absoluto.cpp",
+              "ToolTip": "C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P002_Valor_Absoluto\\P002_Valor_Absoluto.cpp",
+              "RelativeToolTip": "P002_Valor_Absoluto.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBQAAAAJAAAAAAAAAA==",
+>>>>>>> e88530e8c285d5be5e3369f032d0a7626f830036
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-30T14:47:38.233Z",
               "EditorCaption": ""

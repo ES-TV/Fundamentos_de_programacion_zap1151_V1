@@ -7,6 +7,7 @@
 #include <codecvt>
 #include <locale.h>
 #include <stdio.h>
+#include <iomanip>
 
 
 int main()
@@ -22,7 +23,6 @@ int main()
     int Edad = 0;
     std::cout << "Introduzca su edad\n";
     std::cin >> Edad;
-    std::cout << "su carrera dura 4 años"
     //para guardar buneros  decimales
     float altura = 0;
     std::cout << "Introduzca su altura\n" ;
@@ -30,19 +30,19 @@ int main()
     float Cali = 0;
     std::cout << "Intruduzca su calificacion\n";
     std::cin >> Cali;
-    //para guardad verdades y falsedades
-    float d1 = false;
-    std::cout << "El cero es mayor a 1? 1 = verdadero o 0 = falso \n";
+    //para guardad everdades y falsedades
+    bool d1 = false;
+    std::cout << "¿Es usted un humano? 1) Verdadero 0) Falso \n";
     std::cin >> d1;
     std::cout << "Dijiste " << d1 << "\n";
     //Papa raguardar letras
     char sexo;
-    std::cout << "Escriba su sexo\n"
+    std::cout << "Escriba su sexo\n";
     std::cin >> sexo;
     //Para guardae cadenas de caracteres
     char nombre[15];
     std::cout << "por ultimo intoduzca su nombre\n";
-    Std::cin >> nombre;
+    std::cin >> nombre;
     //para guardar numeros realmente extensos
     int num = 0;
     int pot = 0;
@@ -50,12 +50,27 @@ int main()
     std::cin >> num;
     std::cin >> pot;
     double exponencial = pow(num, pot);
-    std::cout << "El resultado es " << exponencial;
+    std::cout << "El resultado es " << exponencial << "\n";
     //Suma
-    double rsum;
-    //Hablemos con el usuario
-    std::cout << "Este es su expediente\n";
-    std::cout << nombre << "con " << edad << " años de edad " ;
+    double a = 0;
+    double b = 0;
+    double suma;
+    float resta;
+    double mult;
+    float div;
+    std::cout << "Vamos a hacer operaciones matematicas elija dos numeros que seran sumados, restados, multiplicados, \n";
+    std::cout << "y en caso de la division sera divisor y dividendo \n";
+    std::cin >> a ;
+    std::cin >> b ;
+    suma = a + b;
+    resta = a - b;
+    mult = a * b;
+    div = a / b;
+    std::cout << "Suma: " << suma << "\n";
+    std::cout << "Resta: " << resta << "\n";
+    std::cout << "Multiplicacion: " << mult << "\n";
+    std::cout << "Divicion: " << div << "\n";
+
 //
 //
 
