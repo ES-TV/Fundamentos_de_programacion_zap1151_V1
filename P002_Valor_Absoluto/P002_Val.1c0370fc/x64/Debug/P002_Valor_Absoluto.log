@@ -1,0 +1,3 @@
+﻿  P002_Valor_Absoluto.cpp
+C:\Users\EstebanChavez-Auxili\Documents\Personales\Uni\Programacion\Fundamentos_de_programacion_zap1151_V1\P002_Valor_Absoluto\P002_Valor_Absoluto.cpp(21,5): error C2181: 'else' no válido sin el correspondiente 'if'
+C:\Users\EstebanChavez-Auxili\Documents\Personales\Uni\Programacion\Fundamentos_de_programacion_zap1151_V1\P002_Valor_Absoluto\P002_Valor_Absoluto.cpp(17,18): warning C4390: ';': se encontró una instrucción controlada vacía; ¿es esa la intención?

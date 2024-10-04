@@ -12,12 +12,16 @@ int main()
 {
     int num = 0;
     int valor = 0;
-    std::cout << "Veremos el valor aboluto de cualquier numero\n";
+    std::cout << "Veremos el valor aboluto de cualquier numero. Elige uno\n";
     std::cin >> num;
     if (num >= 0);
     {
-        
-
+        std::cout << "El resultado es: " << num << "\n";
+    }
+    else;
+    {
+    valor = num * (-1);
+    std::cout << "El resultado es: " << valor << "\n";
     }
 }
 
