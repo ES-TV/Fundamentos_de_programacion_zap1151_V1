@@ -10,9 +10,9 @@
 
 int main()
 {
-    int num = 0;
-    int valor = 0;
-    std::cout << "Veremos el valor aboluto de cualquier numero. Elige uno\n";
+    float num = 0;
+    float valor = 0;
+    std::cout << "Veremos el valor absoluto de cualquier numero. Elige uno\n";
     std::cin >> num;
     if (num >= 0) 
     { 
