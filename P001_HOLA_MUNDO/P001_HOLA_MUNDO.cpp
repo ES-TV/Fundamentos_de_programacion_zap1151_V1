@@ -37,7 +37,7 @@ int main()
     std::cout << "Dijiste " << d1 << "\n";
     //Papa raguardar letras
     char sexo;
-    std::cout << "Escriba su sexo\n";
+    std::cout << "Escriba su sexo H o M\n";
     std::cin >> sexo;
     //Para guardae cadenas de caracteres
     char nombre[15];
