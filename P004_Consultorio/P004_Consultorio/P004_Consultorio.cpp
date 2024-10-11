@@ -11,7 +11,7 @@ int main()
     setlocale(LC_ALL, "en-US");
     std::string nombre;
     std::string apellido;
-    bool sexo = 0;;
+    bool sexo = 0;
     char enfermo;
     bool med = 0;
     int edad = 0;
