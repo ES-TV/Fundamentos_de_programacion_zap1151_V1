@@ -8,6 +8,8 @@
 int main()
 {
     setlocale(LC_ALL, "en_MX.UTF-8");
+    int contador = 0;
+    bool cont;
     float num1;
     float num2;
     float suma;
@@ -18,6 +20,10 @@ int main()
     double pot;
     int op = 0;
     bool continuar;
+    while (contador < 1)
+    {
+    system("cls");
+    system("Color 0e");
     std::cout << "Bienvenidos a la super Calculadora\n";
     std::cout << "Elige una de estas operaciones:\n";
     std::cout << "1) Suma\n";
@@ -56,7 +62,7 @@ int main()
         mult = num1 * num2;
         std::cout << num1 << " x " << num2 << " = " << mult;
         break;
-    case 4: 
+    case 4:
         system("cls");
         system("Color 5e");
         std::cout << "Escriba los numeros para la Division:\n";
@@ -99,6 +105,21 @@ int main()
             std::cout << num1 << " = " << num2;
         }
         break;
+    default:
+        std::cout << "Respuesta no valida\n";
+        break;
+    }
+        std::cout << "\nquieres continuar? 0) No 1)Si \n";
+        std::cin >> cont;
+        if (cont == true)
+        {
+            contador = 0;
+
+        }
+        else
+        {
+            contador++;
+        }
     }
 }
 

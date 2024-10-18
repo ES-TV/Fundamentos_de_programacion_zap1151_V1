@@ -1,5 +1,5 @@
 ﻿  P009_condicionales.cpp
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\P009_condicionales.cpp(75,26): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\P009_condicionales.cpp(20,10): warning C4101: 'continuar': variable local sin referencia
-C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\P009_condicionales.cpp(18,12): warning C4101: 'pot': variable local sin referencia
-  P009_condicionales.vcxproj -> C:\Users\ALUMNO\Desktop\NO_BORRAR_PLOX\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\x64\Debug\P009_condicionales.exe
+C:\Users\ALUMNO\Desktop\No_borrar_plox_x2\Fundamentos_de_programacion_zap1151_V1\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\P009_condicionales.cpp(81,26): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\No_borrar_plox_x2\Fundamentos_de_programacion_zap1151_V1\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\P009_condicionales.cpp(22,10): warning C4101: 'continuar': variable local sin referencia
+C:\Users\ALUMNO\Desktop\No_borrar_plox_x2\Fundamentos_de_programacion_zap1151_V1\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\P009_condicionales.cpp(20,12): warning C4101: 'pot': variable local sin referencia
+  P009_condicionales.vcxproj -> C:\Users\ALUMNO\Desktop\No_borrar_plox_x2\Fundamentos_de_programacion_zap1151_V1\Fundamentos_de_programacion_zap1151_V1\P009_condicionales\x64\Debug\P009_condicionales.exe
