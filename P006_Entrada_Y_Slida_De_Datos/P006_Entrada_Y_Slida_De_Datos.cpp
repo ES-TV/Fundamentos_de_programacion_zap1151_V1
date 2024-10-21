@@ -21,6 +21,7 @@ int main()
     if (mayor_edad == true)
     {
         std::cout << "Ingrase su nombre: \n";
+        std::cin.ignore();
         getline(std::cin,user_user);
         if (user_user == user)
         {

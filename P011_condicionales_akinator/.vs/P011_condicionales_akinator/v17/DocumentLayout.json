@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P011_condicionales_akinator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{608E6606-FE0E-4825-8058-9B5AE5D52337}|P011_condicionales_akinator.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P011_condicionales_akinator\\P011_condicionales_akinator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{608E6606-FE0E-4825-8058-9B5AE5D52337}|P011_condicionales_akinator.vcxproj|solutionrelative:P011_condicionales_akinator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P011_condicionales_akinator.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P011_condicionales_akinator\\P011_condicionales_akinator.cpp",
+              "RelativeDocumentMoniker": "P011_condicionales_akinator.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P011_condicionales_akinator\\P011_condicionales_akinator.cpp",
+              "RelativeToolTip": "P011_condicionales_akinator.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T13:01:47.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
