@@ -23,16 +23,16 @@ int main()
         system("cls");
         if (ent_user == user)
         {
-            while (contador2 >= 0)
-            {
+     
+   
                 std::cout << "Introduzca su password\n";
-
                 std::getline(std::cin, ent_pw);
                 system("cls");
                 if (ent_pw == pw)
                 {
                     std::cout << "Le damos la bienvenida a su perfil\n";
                     contador2 = 0;
+                    system("pause");
                 }
                 else
                 {
@@ -40,7 +40,7 @@ int main()
                     std::cout << "Te quedan " << contador2 << " intentos\n";
                     contador2--;
                 }
-            }
+        
             contador = 0;
         }
         else
