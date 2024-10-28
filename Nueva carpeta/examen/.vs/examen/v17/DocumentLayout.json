@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_de_programacion_zap1151_V1\\Nueva carpeta\\examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2EA954-1B5A-48AC-AB74-F4FB115613AE}|examen\\examen.vcxproj|C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_de_programacion_zap1151_V1\\Nueva carpeta\\examen\\examen\\examen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC2EA954-1B5A-48AC-AB74-F4FB115613AE}|examen\\examen.vcxproj|solutionrelative:examen\\examen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "examen.cpp",
+              "DocumentMoniker": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_de_programacion_zap1151_V1\\Nueva carpeta\\examen\\examen\\examen.cpp",
+              "RelativeDocumentMoniker": "examen\\examen.cpp",
+              "ToolTip": "C:\\Users\\ALMUNO\\OneDrive\\Escritorio\\no borrar pls\\Fundamentos_de_programacion_zap1151_V1\\Nueva carpeta\\examen\\examen\\examen.cpp",
+              "RelativeToolTip": "examen\\examen.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-28T15:02:23.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
