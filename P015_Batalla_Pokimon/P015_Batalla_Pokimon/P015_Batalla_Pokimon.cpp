@@ -15,6 +15,10 @@ int main()
     int deg = 0;
     int dnt = 0;
     int det = 0;
+    bool act = 0;
+    int att;
+    int vida = 50;
+    int vidaenemy = 50;
     std::cout << "Hola Soy el Profesor Oak\nTe tengo un regalo\n''Aabres el regalo y cotiene 3 pokeballs''\ncual elijes?\n";
     do
     {
@@ -23,6 +27,7 @@ int main()
         switch (pokemon)
         {
         case 1:
+            system("cls");
             std::cout << "Que mainstream pero va!\n";
             std::cout << "Anda sal por ahi a cazar pokimons\n";
             system("pause");
@@ -31,11 +36,72 @@ int main()
             enemy = rand() % 2;
             switch (enemy)
             {
-            case 0;
-                std::cout << "Te has encontrado con un charmander\n";
-                std::cout << "Que deseas hacer?\n1) Pelear\n2) huir\n";
+            case 0:
+                system("cls");
+                std::cout << "Te has encontrado con un Geodude\n";
+                std::cout << "Que deseas hacer?\n0) huir\n1) Pelear\n";
+                std::cin >> act;
+                if (act)
+                {
+                    do
+                    {
+                        system("cls");
+                        std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
+                        std::cin >> att;
+                        switch (att)
+                        {
+                        case 1:
+                            dng = rand() % 
 
+                        default:
+                            std::cout << "Elije bien joder\n";
+                            break;
+                        }
+                    } while (act);
+            case 1:
+                system("cls");
+                std::cout << "Te has encontrado con un oddish\n";
+                std::cout << "Que deseas hacer?\n0) huir\n1) Pelear\n";
+                std::cin >> act;
+                if (act)
+                {
+                    do
+                    {
+                        std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
+                        std::cin >> att;
+                        switch (att)
+                        {
+                        case 1:
+                            system("pause");
+                        default:
+                            std::cout << "Elije bien joder\n";
+                            break;
+                        }
+                    } while (act);
+                }
+            case 2:
+                system("cls");
+                std::cout << "Te has encontrado con un hitmonlee\n";
+                std::cout << "Que deseas hacer?\n0) huir\n1) Pelear\n";
+                std::cin >> act;
+                if (act)
+                {
+                    do
+                    {
+                        std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
+                        std::cin >> att;
+                        switch (att)
+                        {
+                        case 1:
+                            system("pause");
+                        default:
+                            std::cout << "Elije bien joder\n";
+                            break;
+                        }
+                    } while (act);
+                }
 
+                }
             }
             system("pause");
             break;

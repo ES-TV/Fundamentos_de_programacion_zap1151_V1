@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P012_bucles_juego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10C0996B-849D-4AE2-B174-94E3610B7A18}|P012_bucles_juego.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P012_bucles_juego\\P012_bucles_juego.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{10C0996B-849D-4AE2-B174-94E3610B7A18}|P012_bucles_juego.vcxproj|solutionrelative:P012_bucles_juego.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALUMNO\\Desktop\\P012_bucles_juego\\P012_bucles_juego.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A139B1AF-FF72-4355-B7D3-2FA588708EC8}|P012_bucles_juego.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P012_bucles_juego\\P012_bucles_juego.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A139B1AF-FF72-4355-B7D3-2FA588708EC8}|P012_bucles_juego.vcxproj|solutionrelative:P012_bucles_juego.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +23,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P012_bucles_juego.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\P012_bucles_juego\\P012_bucles_juego.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\P012_bucles_juego\\P012_bucles_juego.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\P012_bucles_juego\\P012_bucles_juego.cpp",
+              "RelativeToolTip": "..\\..\\..\\P012_bucles_juego\\P012_bucles_juego.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T13:44:24.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "P012_bucles_juego.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P012_bucles_juego\\P012_bucles_juego.cpp",
               "RelativeDocumentMoniker": "P012_bucles_juego.cpp",
               "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLOX\\Fundamentos_de_programacion_zap1151_V1\\P012_bucles_juego\\P012_bucles_juego.cpp",
               "RelativeToolTip": "P012_bucles_juego.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T13:09:24.137Z",
+              "WhenOpened": "2024-11-01T13:44:17.517Z",
               "EditorCaption": ""
             }
           ]
