@@ -18,7 +18,7 @@ int main()
     int dnt = 0;
     int det = 0;
     bool act = 0;
-    bool actenemy;
+    int actenemy;
     int att;
     int vida = 50;
     int vidaenemy = 50;
@@ -61,7 +61,7 @@ int main()
                         break;
                     case 2:
                         deg = 1 + rand() % 5;
-                        vidaenemy = deg - vidaenemy;
+                        vidaenemy = vidaenemy - deg;
                         std::cout << "-" << deg << std::endl;
                         system("pause");
                         break;
@@ -70,18 +70,17 @@ int main()
                         break;
                     }
                     actenemy = rand() % 1;
-                    if (true)
+                    if (actenemy==1)
                     {
                         dnt = 1 + rand() % 5;
-                        vidaenemy = vidaenemy - dnt;
-                        std::cout << "Geodude te ha quitado " << det << " de vida\n";
-
+                        vida = vida - dnt;
+                        std::cout << "Geodude te ha quitado " << dnt << " de vida\n";
                         system("pause");
                     }
                     else
                     {
                         det = 1 + rand() % 5;
-                        vida = det - vida;
+                        vida = vida - det;
                         std::cout << "Geodude te ha quitado " << det << " de vida\n";
                         system("pause");
                     }
@@ -109,7 +108,7 @@ int main()
                         break;
                     case 2:
                         deg = 1 + rand() % 5;
-                        vidaenemy = deg - vidaenemy;
+                        vidaenemy = vidaenemy - deg;
                         std::cout << "-" << deg << std::endl;
                         system("pause");
                         break;
@@ -118,18 +117,18 @@ int main()
                         break;
                     }
                     actenemy = rand() % 1;
-                    if (true)
+                    if (actenemy == 1)
                     {
-                        dng = 1 + rand() % 5;
-                        vidaenemy = vidaenemy - dng;
-                        std::cout << "-" << dng << std::endl;
+                        dnt = 1 + rand() % 5;
+                        vida = vida - dnt;
+                        std::cout << "Geodude te ha quitado " << dnt << " de vida\n";
                         system("pause");
                     }
                     else
                     {
-                        deg = 1 + rand() % 5;
-                        vidaenemy = deg - vidaenemy;
-                        std::cout << "Te ha hecho" << deg << " de vida\n";
+                        det = 1 + rand() % 5;
+                        vida = vida - det;
+                        std::cout << "Geodude te ha quitado " << det << " de vida\n";
                         system("pause");
                     }
                 } while (act || vidaenemy == 0);
@@ -155,7 +154,7 @@ int main()
                         break;
                     case 2:
                         deg = 1 + rand() % 5;
-                        vidaenemy = deg - vidaenemy;
+                        vidaenemy = vidaenemy - deg;
                         std::cout << "-" << deg << std::endl;
                         system("pause");
                         break;
@@ -164,18 +163,18 @@ int main()
                         break;
                     }
                     actenemy = rand() % 1;
-                    if (true)
+                    if (actenemy == 1)
                     {
-                        dng = 1 + rand() % 5;
-                        vidaenemy = vidaenemy - dng;
-                        std::cout << "-" << dng << std::endl;
+                        dnt = 1 + rand() % 5;
+                        vida = vida - dnt;
+                        std::cout << "Geodude te ha quitado " << dnt << " de vida\n";
                         system("pause");
                     }
                     else
                     {
-                        deg = 1 + rand() % 5;
-                        vidaenemy = deg - vidaenemy;
-                        std::cout << "Te ha hecho" << deg << " de vida\n";
+                        det = 1 + rand() % 5;
+                        vida = vida - det;
+                        std::cout << "Geodude te ha quitado " << det << " de vida\n";
                         system("pause");
                     }
                 } while (act || vidaenemy == 0);
