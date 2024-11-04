@@ -5,9 +5,11 @@
 #include <locale>
 #include <string>
 #include <cstdlib>
+#include <ctime>
 
 int main()
 {
+    srand(time(NULL));
     int pokemon;
     bool des = 1;
     int enemy = 0;
@@ -16,6 +18,7 @@ int main()
     int dnt = 0;
     int det = 0;
     bool act = 0;
+    bool actenemy;
     int att;
     int vida = 50;
     int vidaenemy = 50;
@@ -41,67 +44,141 @@ int main()
                 std::cout << "Te has encontrado con un Geodude\n";
                 std::cout << "Que deseas hacer?\n0) huir\n1) Pelear\n";
                 std::cin >> act;
-                if (act)
+                do
                 {
-                    do
+                    system("cls");
+                    std::cout << "Geodude: " << vidaenemy << " Vida\n";
+                    std::cout << "Charmander " << vida << " Vida";
+                    std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
+                    std::cin >> att; 
+                    switch (att)
                     {
-                        system("cls");
-                        std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
-                        std::cin >> att;
-                        switch (att)
-                        {
-                        case 1:
-                            dng = rand() % 
+                    case 1:
+                        dng = 1 + rand() % 5;
+                        vidaenemy = vidaenemy - dng;
+                        std::cout << "-" << dng << std::endl;
+                        system("pause");
+                        break;
+                    case 2:
+                        deg = 1 + rand() % 5;
+                        vidaenemy = deg - vidaenemy;
+                        std::cout << "-" << deg << std::endl;
+                        system("pause");
+                        break;
+                    default:
+                        std::cout << "Elije bien joder\n";
+                        break;
+                    }
+                    actenemy = rand() % 1;
+                    if (true)
+                    {
+                        dnt = 1 + rand() % 5;
+                        vidaenemy = vidaenemy - dnt;
+                        std::cout << "Geodude te ha quitado " << det << " de vida\n";
 
-                        default:
-                            std::cout << "Elije bien joder\n";
-                            break;
-                        }
-                    } while (act);
+                        system("pause");
+                    }
+                    else
+                    {
+                        det = 1 + rand() % 5;
+                        vida = det - vida;
+                        std::cout << "Geodude te ha quitado " << det << " de vida\n";
+                        system("pause");
+                    }
+                } while (act || vidaenemy <= 0 || vida <= 0);
             case 1:
                 system("cls");
                 std::cout << "Te has encontrado con un oddish\n";
                 std::cout << "Que deseas hacer?\n0) huir\n1) Pelear\n";
                 std::cin >> act;
-                if (act)
+                system("cls");
+                do
                 {
-                    do
+                    system("cls");
+                    std::cout << "Oddish: " << vidaenemy << " vida\n";
+                    std::cout << "Charmander " << vida << " Vida";
+                    std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
+                    std::cin >> att;
+                    switch (att)
                     {
-                        std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
-                        std::cin >> att;
-                        switch (att)
-                        {
-                        case 1:
-                            system("pause");
-                        default:
-                            std::cout << "Elije bien joder\n";
-                            break;
-                        }
-                    } while (act);
-                }
+                    case 1:
+                        dng = 1 + rand() % 5;
+                        vidaenemy = vidaenemy - dng;
+                        std::cout << "-" << dng << std::endl;
+                        system("pause");
+                        break;
+                    case 2:
+                        deg = 1 + rand() % 5;
+                        vidaenemy = deg - vidaenemy;
+                        std::cout << "-" << deg << std::endl;
+                        system("pause");
+                        break;
+                    default:
+                        std::cout << "Elije bien joder\n";
+                        break;
+                    }
+                    actenemy = rand() % 1;
+                    if (true)
+                    {
+                        dng = 1 + rand() % 5;
+                        vidaenemy = vidaenemy - dng;
+                        std::cout << "-" << dng << std::endl;
+                        system("pause");
+                    }
+                    else
+                    {
+                        deg = 1 + rand() % 5;
+                        vidaenemy = deg - vidaenemy;
+                        std::cout << "Te ha hecho" << deg << " de vida\n";
+                        system("pause");
+                    }
+                } while (act || vidaenemy == 0);
             case 2:
                 system("cls");
                 std::cout << "Te has encontrado con un hitmonlee\n";
                 std::cout << "Que deseas hacer?\n0) huir\n1) Pelear\n";
                 std::cin >> act;
-                if (act)
+                do
                 {
-                    do
+                    system("cls");
+                    std::cout << "Hitmonlee: " << vidaenemy << " vida\n";
+                    std::cout << "Charmander " << vida << " Vida";
+                    std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
+                    std::cin >> att;
+                    switch (att)
                     {
-                        std::cout << "que deseas hacer?\n1) Arañazo\n2) Ascuas\n";
-                        std::cin >> att;
-                        switch (att)
-                        {
-                        case 1:
-                            system("pause");
-                        default:
-                            std::cout << "Elije bien joder\n";
-                            break;
-                        }
-                    } while (act);
-                }
-
-                }
+                    case 1:
+                        dng = 1 + rand() % 5;
+                        vidaenemy = vidaenemy - dng;
+                        std::cout << "-" << dng << std::endl;
+                        system("pause");
+                        break;
+                    case 2:
+                        deg = 1 + rand() % 5;
+                        vidaenemy = deg - vidaenemy;
+                        std::cout << "-" << deg << std::endl;
+                        system("pause");
+                        break;
+                    default:
+                        std::cout << "Elije bien joder\n";
+                        break;
+                    }
+                    actenemy = rand() % 1;
+                    if (true)
+                    {
+                        dng = 1 + rand() % 5;
+                        vidaenemy = vidaenemy - dng;
+                        std::cout << "-" << dng << std::endl;
+                        system("pause");
+                    }
+                    else
+                    {
+                        deg = 1 + rand() % 5;
+                        vidaenemy = deg - vidaenemy;
+                        std::cout << "Te ha hecho" << deg << " de vida\n";
+                        system("pause");
+                    }
+                } while (act || vidaenemy == 0);
             }
             system("pause");
             break;
@@ -114,7 +191,7 @@ int main()
         case 3:
             std::cout << "Que aguado pero esta bien te la paso!\n";
             std::cout << "Anda sal por ahi a cazar pokimons\n";
-            system("pause");
+            system("pause"); 
             std::cout << "Vas a la hierbita y te sale algo...\n";
             break;
         default:
