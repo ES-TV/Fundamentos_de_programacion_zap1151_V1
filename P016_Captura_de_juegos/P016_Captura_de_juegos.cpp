@@ -31,13 +31,13 @@ int main()
         std::getline(std::cin, company[i]);
     }
     system("pause");
-    for (int i = 0; i <= 3; i++)
+    for (int i = 0; i < 3; i++)
     {
         std::cout << "Juego #" << i + 1 << std::endl;
-        std::cout << titulo[1] << std::endl;
+        std::cout << titulo[i] << std::endl;
         std::cout << "año " << anio[i] << std::endl;
-        std::cout << "Autor: " << std::endl;
-        std::cout << "Desarrollado por: " << std::endl;
+        std::cout << "Autor: " << autor[i] << std::endl;
+        std::cout << "Desarrollado por: " << company[i] << std::endl;
     }
     
 }
