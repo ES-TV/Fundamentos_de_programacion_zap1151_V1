@@ -1,0 +1,143 @@
+﻿  C008_Punteros.cpp
+C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(37,24): error C2440: '=': no se puede realizar la conversión de 'int *' a 'int **'
+      C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(37,24):
+      Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+  
+C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14): error C2679: '>>' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'int *' (o bien no existe una conversión aceptable)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(303,39):
+      puede ser 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)': el argumento 2 no puede convertirse de 'int *' a 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+              Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(299,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)': el argumento 2 no puede convertirse de 'int *' a 'void *&'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(295,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)': el argumento 2 no puede convertirse de 'int *' a 'long double &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(291,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)': el argumento 2 no puede convertirse de 'int *' a 'double &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(287,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)': el argumento 2 no puede convertirse de 'int *' a 'float &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(283,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)': el argumento 2 no puede convertirse de 'int *' a 'unsigned __int64 &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(279,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)': el argumento 2 no puede convertirse de 'int *' a '__int64 &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(275,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)': el argumento 2 no puede convertirse de 'int *' a 'unsigned long &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(271,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)': el argumento 2 no puede convertirse de 'int *' a 'long &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(267,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)': el argumento 2 no puede convertirse de 'int *' a 'unsigned int &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(259,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)': el argumento 2 no puede convertirse de 'int *' a 'int &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(255,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)': el argumento 2 no puede convertirse de 'int *' a 'unsigned short &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(223,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)': el argumento 2 no puede convertirse de 'int *' a 'short &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(219,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)': el argumento 2 no puede convertirse de 'int *' a 'bool &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(190,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))': el argumento 2 no puede convertirse de 'int *' a 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+              No existe un contexto en el que sea posible realizar esta conversión
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(185,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': el argumento 2 no puede convertirse de 'int *' a 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+              No existe un contexto en el que sea posible realizar esta conversión
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(180,39):
+      o       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))': el argumento 2 no puede convertirse de 'int *' a 'std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &)'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+              No existe un contexto en el que sea posible realizar esta conversión
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3371,32):
+      o       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "std::basic_string<_Elem,_Traits,_Alloc> &" de "int *"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(849,32):
+      o       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)": el parámetro de plantilla "_Elem" es ambiguo
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+              puede ser 'int'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+              o       'char'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)": no se pudo deducir el argumento plantilla para "_Elem *" de "int *"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(854,31):
+      o       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+          'inicializando': no se puede realizar la conversión de 'int *' a 'signed char *'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+              Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(859,31):
+      o       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+          'inicializando': no se puede realizar la conversión de 'int *' a 'unsigned char *'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+              Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(865,32):
+      o       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)": el parámetro de plantilla "_Elem" es ambiguo
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+              puede ser 'int *'
+              C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+              o       'char'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)": no se pudo deducir el argumento plantilla para "_Elem &" de "int *"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(888,31):
+      o       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+          'inicializando': no se puede realizar la conversión de 'int *' a 'signed char &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(894,31):
+      o       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,39):
+          'inicializando': no se puede realizar la conversión de 'int *' a 'unsigned char &'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(907,9):
+      o       '_Istr &&std::operator >>(_Istr &&,_Ty &&)'
+          C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+          "_Istr &&std::operator >>(_Istr &&,_Ty &&)": no se pudo deducir el argumento plantilla para "__formal"
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(906,102):
+              '<template-parameter>': no se puede crear un puntero a una referencia
+      C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(47,14):
+      al hacer coincidir la lista de argumentos '(std::istream, int *)'
+  
+C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(53,5): error C2664: 'void imprimir(std::string *,std::string *,int *,int)': el argumento 3 no puede convertirse de 'int **' a 'int *'
+      C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(53,29):
+      Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+      C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(13,6):
+      vea la declaración de 'imprimir'
+      C:\Users\Esteban\Documents\Amerike\Semestre 1\Programacion\Fundamentos_de_programacion_zap1151_V1\C008_Punteros\C008_Punteros\C008_Punteros.cpp(53,5):
+      al hacer coincidir la lista de argumentos '(std::string *, std::string *, int **, int)'
+  

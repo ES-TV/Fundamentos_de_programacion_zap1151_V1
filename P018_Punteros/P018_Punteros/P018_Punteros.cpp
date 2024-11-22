@@ -13,12 +13,13 @@
 int main()
 {
     setlocale(LC_ALL, "es_MX.UTF-8");
-    int i = 0;
-    int j = 0;
-    int* matriz1 = NULL;
+    int i = 5;
+    int j = 5;
+    int** matriz1 = &num;
     std::cout << "Vamos a crear una Matriz. \n¿De que tamaño desea?\n(Escriba primero la dimension i y despues la j)\n";
     std::cin >> i;
     std::cin >> j;
+
 
 }
 
