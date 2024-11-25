@@ -14,6 +14,7 @@ int main()
 {
     setlocale(LC_ALL, "es_MX.UTF-8");
     srand(time(NULL));
+    int a;
     int n;
     int m;
     int** matriz1;
@@ -31,11 +32,30 @@ int main()
         {
             for (int j = 0; j < m; j++)
             {
-                
+                matriz1[i][j] = rand() % 10;
             }
         }
     }
-
+    else
+    {
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                std::cout << "ingrese el numero en la posicion " << "[" << n << "]" << "[" << m << "]";
+                std::cin >> a;
+                matriz1[i][j] = a;
+            }
+        }
+    }
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            std::cout << "|" << matriz1[i][j] << "|";
+        }
+        std::cout << "\n";
+    }
 
 }
 
