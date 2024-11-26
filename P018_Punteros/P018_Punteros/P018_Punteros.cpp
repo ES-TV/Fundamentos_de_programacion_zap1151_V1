@@ -42,7 +42,7 @@ int main()
         {
             for (int j = 0; j < m; j++)
             {
-                std::cout << "ingrese el numero en la posicion " << "[" << n << "]" << "[" << m << "]";
+                std::cout << "ingrese el numero en la posicion " << "[" << i << "]" << "[" << j << "]";
                 std::cin >> a;
                 matriz1[i][j] = a;
             }
