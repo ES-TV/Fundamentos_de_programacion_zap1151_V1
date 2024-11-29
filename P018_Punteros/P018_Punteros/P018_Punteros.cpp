@@ -15,8 +15,8 @@ int main()
     setlocale(LC_ALL, "es_MX.UTF-8");
     srand(time(NULL));
     int a;
-    int n;
-    int m;
+    int n;//filas
+    int m;//columnas
     int** matriz1;
     std::cout << "Vamos a crear una Matriz. \n¿De que tamaño desea?\n(Escriba primero cuantas filas y despues las columnas)\n";
     std::cin >> n;
@@ -56,6 +56,9 @@ int main()
         }
         std::cout << "\n";
     }
-
+    for (int i = 0; i < n; i++) {
+        delete[] matriz1[i];
+    }
+    delete[] matriz1;
 }
 
