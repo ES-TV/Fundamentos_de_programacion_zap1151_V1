@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\",
+  "WorkspaceRootPath": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCBFB8B5-D6A9-439D-98A5-54CBFAB4D300}|P018_Punteros\\P018_Punteros.vcxproj|C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\P018_Punteros\\P018_Punteros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P016_Captura_de_juegos\\P016_Captura_de_juegos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBFB8B5-D6A9-439D-98A5-54CBFAB4D300}|P018_Punteros\\P018_Punteros.vcxproj|C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\P018_Punteros\\P018_Punteros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DCBFB8B5-D6A9-439D-98A5-54CBFAB4D300}|P018_Punteros\\P018_Punteros.vcxproj|solutionrelative:P018_Punteros\\P018_Punteros.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "P016_Captura_de_juegos.cpp",
+              "DocumentMoniker": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P016_Captura_de_juegos\\P016_Captura_de_juegos.cpp",
+              "RelativeDocumentMoniker": "..\\P016_Captura_de_juegos\\P016_Captura_de_juegos.cpp",
+              "ToolTip": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P016_Captura_de_juegos\\P016_Captura_de_juegos.cpp",
+              "RelativeToolTip": "..\\P016_Captura_de_juegos\\P016_Captura_de_juegos.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-29T01:12:25.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "P018_Punteros.cpp",
-              "DocumentMoniker": "C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\P018_Punteros\\P018_Punteros.cpp",
+              "DocumentMoniker": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\P018_Punteros\\P018_Punteros.cpp",
               "RelativeDocumentMoniker": "P018_Punteros\\P018_Punteros.cpp",
-              "ToolTip": "C:\\Users\\EstebanChavez-Auxili\\Documents\\Personales\\Uni\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\P018_Punteros\\P018_Punteros.cpp",
+              "ToolTip": "C:\\Users\\Esteban\\Documents\\Amerike\\Semestre 1\\Programacion\\Fundamentos_de_programacion_zap1151_V1\\P018_Punteros\\P018_Punteros\\P018_Punteros.cpp",
               "RelativeToolTip": "P018_Punteros\\P018_Punteros.cpp",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-21T18:01:00.204Z",
               "EditorCaption": ""
