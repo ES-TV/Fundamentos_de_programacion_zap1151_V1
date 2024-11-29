@@ -1,0 +1,5 @@
+﻿  Lost_in_the_maze.cpp
+C:\Users\EstebanChavez-Auxili\Documents\Personales\Uni\Programacion\Fundamentos_de_programacion_zap1151_V1\Lost_in_the_maze\Lost_in_the_maze\Lost_in_the_maze.cpp(16,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\EstebanChavez-Auxili\Documents\Personales\Uni\Programacion\Fundamentos_de_programacion_zap1151_V1\Lost_in_the_maze\Lost_in_the_maze\Lost_in_the_maze.cpp(18,9): warning C4101: 'dado': variable local sin referencia
+C:\Users\EstebanChavez-Auxili\Documents\Personales\Uni\Programacion\Fundamentos_de_programacion_zap1151_V1\Lost_in_the_maze\Lost_in_the_maze\Lost_in_the_maze.cpp(17,9): warning C4101: 'camino': variable local sin referencia
+  Lost_in_the_maze.vcxproj -> C:\Users\EstebanChavez-Auxili\Documents\Personales\Uni\Programacion\Fundamentos_de_programacion_zap1151_V1\Lost_in_the_maze\x64\Debug\Lost_in_the_maze.exe
